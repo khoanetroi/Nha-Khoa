@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');/* reset css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* reset css */
+
+/* style common */
+:root {
+    --color-blue: rgb(5,108,182);
+    --color-lightblue: #2F80ED;
+    --color-yellow: #F2C94C;
+    --color-gray: #666666;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Roboto';
+    color: white;
+    font-size: 1.6rem;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:0 1.2rem;
+}
+
+.info-full {
+    background: var(--color-lightblue);
+    padding: 40px 0;
+}
+
+/* first header */
+.first-header {
+    background: var(--color-blue);
+}
+
+.header-info i {
+    margin-right: 15px;
+}
+.f-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+.fb a{
+    color: white;
+}
+/* first header */
+
+/* second header */
+.menu-header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-menu {
+    padding-top: 35px;
+}
+.right-menu ul{
+    display: flex;
+    justify-content: space-between;
+}
+.right-menu ul li a {
+    display: inline-block;
+    color: var(--color-gray);
+    padding: 16px 25px;
+    font-weight: 400;
+}
+/* second header */
+
+/* slider */
+#slider{
+    position: relative;
+}
+/* slider */
+/* footer */
+.infomation {
+    display: flex;
+}
+
+.infomation a {
+    color: white;
+}
+
+.thoi-gian hr,.thong-tin hr,.lien-he hr {
+    color: yellow;
+    margin-bottom: 20px;
+    width: 50%;
+    
+}
+/* for class logo */
+.dang-ky{
+    width: 34%;
+    margin-right: 40px;
+}
+.lien-he{
+    width: 32.66667%
+}
+.logo a {
+    display: inline-block;
+    margin-bottom: 28px;
+}
+.dang-ky p {
+    margin-bottom: 24px;
+}
+.dang-ky button {
+    margin-top: 30px;
+    padding: 12px 22px;
+    background: var(--color-yellow);
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+}
+/* for class logo */
+
+/* for thongtin & thoi gian */
+.thong-tin, .thoi-gian {
+    width: 18.666666%;
+}
+.thong-tin ul li{
+    margin-bottom: 16px;
+}
+.thong-tin h3, .thoi-gian h3 {
+    margin-bottom: 28px;
+}
+.thoi-gian ul li {
+    margin-bottom: 30px;
+}
+.thong-tin ul, .thoi-gian ul, .lien-he ul {
+    padding: 0; 
+}
+
+/* for thongtin & thoi gian */
+
+/* for lienhe */
+.media ul {
+    display: flex;
+}
+.media ul li i {
+    display: inline-block;
+    padding: 8px;
+}
+.media {
+    color: white;
+}
+.lien-he h3 {
+    margin-bottom: 28px;
+}
+.lien-he ul li {
+    margin-bottom: 16px;
+}
+/* for lienhe */
+
+.last-footer {
+    color: white;
+    background: var(--color-yellow);
+    text-align: center;
+    padding: 5px 0 15px 0;
+}
+
+/* footer */
